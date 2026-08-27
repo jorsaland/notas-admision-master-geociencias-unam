@@ -6,20 +6,37 @@
 ### 1.1.1 Constituyentes
 
 #### Identificar los constituyentes del sistema solar: planetas, planetas enanos, asteroides, satélites, polvo cósmico.
-> - [APUNTES]
+> - Un planeta se caracteriza por:
+>   - No tener suficiente masa para realizar fusión nuclear (como una estrella o una enana marrón).
+>   - Orbitar alrededor de una estrella o un remanente de ella.
+>   - Tener suficiente masa para que su gravedad supere las fuerzas del cuerpo rígido, de manera que asuma una forma aproximadamente esférica.
+>   - Haber limpiado la vecindad de su órbita de otros objetos.
+> - Un planeta enano tiene las mismas características que un planeta, excepto porque no ha limpiado su órbita.
+> - Un asteroide tiene las mismas características de un planeta enano, excepto porque no tiene la masa suficiente para asumir una forma más o menos esférica.
+> - Un satélite orbita a un planeta o a un planeta enano y tiene suficiente masa para generar una fuerza gravitatoria apreciable.
+> - El polvo cósmico se compone de partículas minúsculas en el espacio.
 
 ### 1.1.2 Comparaciones entre planetas terrestres y gigantes
 #### Diferenciar entre planetas terrestres y gigantes.
-> - [APUNTES]
+> - Los planetas rocosos tienen una corteza sólida y rocosa, un manto de silicatos y un núcleo metálico, principalmente de hierro y níquel.
+> - Los planetas gaseosos están compuestos principalmente de hidrógeno y helio, y tienen un núcleo sólido o líquido debido a la presión extrema.
 
 ### 1.1.3 Interacciones entre el Sol y la Tierra: el viento solar y la magnetósfera terrestre
 
 #### Conocer el proceso mediante el cual las magnetósferas operan como escudo protector de las partículas energéticas del viento solar.
-> - [APUNTES]
+> - **Arco de choque (*bow shock*):** Es la capa más externa, donde el viento estelar frena abruptamente.
+> - **Magnetofunda (*magnetosheath*):** Es la región comprendida entre el arco de choque y la magnetopausa. El viento solar que logra ingresar se amortigua y se desvía alrededor de la magnetopausa.
+> - **Magnetopausa (*magnetopause*):** Es el límite donde la presión del campo magnético terrestre se equilibra con la presión del viento solar, desviando la mayoría de las partículas. Su forma varía con la intensidad del viento solar.
+> - **Cinturones de Van Allen (*Van Allen belts*):** Son dos regiones situadas entre los 600 y 13000 km y entre los 19000 y 60000 km de altitud, donde se acumulan las partículas remanentes del viento solar que atravesaron la magnetopausa en dirección a la Tierra.
+> - **Polos magnéticos (*Magnetic poles*):** En los polos ingresa una pequeña parte del viento solar, ionizando la atmósfera y produciendo las auroras.
+> - **Cola magnética (*Magnetotail*):** Es la parte del campo magnético opuesta al sol, donde el viento solar desviado por la magnetosfera escapa y se aleja de la Tierra.
 
 ### 1.1.4 Movimientos de los planetas: rotación, translación y precesión
+
 #### Definir los diferentes movimientos de los planetas.
-> - [APUNTES]
+> - **Traslación:** El planeta gira alrededor de la estrella en una órbita elíptica.
+> - **Rotación:** El planeta gira sobre su propio eje a velocidad angular constante.
+> - **Precesión:** El eje de rotación cambia de direccción, completando un ciclo cada 25772 años.
 
 
 
