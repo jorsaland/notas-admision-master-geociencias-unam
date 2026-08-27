@@ -4,25 +4,25 @@
 ## 1.1 Exponenciación, funciones logarítmicas
 
 #### Emplear las reglas logarítmicas y las exponenciales.
-- [APUNTES]
+> - [APUNTES]
 
 
 ## 1.2 Ecuación de la recta
 
 #### Obtener los parámetros que definen las ecuaciones de rectas.
-- [APUNTES]
+> - [APUNTES]
 
 
 ## 1.3 Ecuaciones de parábolas e hipérbolas
 
 #### Obtener los parámetros que definen las ecuaciones de parábolas e hipérbolas.
-- [APUNTES]
+> - [APUNTES]
 
 
 ## 1.4 Trigonometría
 
 #### Resolver problemas de trigonometría.
-- [APUNTES]
+> - [APUNTES]
 
 
 
@@ -32,16 +32,16 @@
 ## 2.1 Sistemasde ecuaciones lineales
 
 #### Resolver sistemas de ecuaciones lineales.
-- [APUNTES]
+> - [APUNTES]
 
 
 ## 2.2 Polinomios y ecuación cuadrática
 
 #### Resolver polinomios cuadráticos.
-- [APUNTES]
+> - [APUNTES]
 
 #### Aplicar reglas de factorización para simplificar polinomios.
-- [APUNTES]
+> - [APUNTES]
 
 
 
@@ -51,31 +51,31 @@
 ## 3.1 Funciones, límites y continuidad
 
 #### Comprender gráficamente el concepto de función.
-- [APUNTES]
+> - [APUNTES]
 
 #### Calcular límites de funciones algebraicas básicas.
-- [APUNTES]
+> - [APUNTES]
 
 
 ## 3.2 Derivación
 
 #### Calcular derivadas de funciones analíticas.
-- [APUNTES]
+> - [APUNTES]
 
 
 ## 3.3 Máximos y mínimos
 
 #### Calcular máximos y mínimos de una función.
-- [APUNTES]
+> - [APUNTES]
 
 
 ## 3.4 Integración
 
 #### Calcular integrales de funciones analíticas.
-- [APUNTES]
+> - [APUNTES]
 
 #### Interpretar la representación geométrica de la integral.
-- [APUNTES]
+> - [APUNTES]
 
 
 
@@ -85,25 +85,25 @@
 ## 4.1 Probabilidad
 
 #### Aplicar las reglas básicas de la probabilidad.
-- [APUNTES]
+> - [APUNTES]
 
 
 ## 4.2 Distribuciones de probabilidad
 
 #### Comprender las relaciones entre moda, mediana y media, dada una función de distribución de probabilidad.
-- [APUNTES]
+> - [APUNTES]
 
 
 ## 4.3 Medidas de tendencia central y dispersión
 
 #### Interpretar el concepto de varianza, diagrama de Tukey (caja y bigotes) e intervalos de confianza.
-- [APUNTES]
+> - [APUNTES]
 
 
 ## 4.4 Regresión lineal simple y Correlación
 
 #### Reconocer la diferencia entre regresión y correlación.
-- [APUNTES]
+> - [APUNTES]
 
 #### Interpretar la significancia estadística de una línea de regresión.
-- [APUNTES]
+> - [APUNTES]
