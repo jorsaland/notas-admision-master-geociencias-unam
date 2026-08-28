@@ -18,8 +18,8 @@
 
 ### 1.1.2 Comparaciones entre planetas terrestres y gigantes
 #### Diferenciar entre planetas terrestres y gigantes.
-> - Los planetas rocosos tienen una corteza sólida y rocosa, un manto de silicatos y un núcleo metálico, principalmente de hierro y níquel.
-> - Los planetas gaseosos están compuestos principalmente de hidrógeno y helio, y tienen un núcleo sólido o líquido debido a la presión extrema.
+> - Los **planetas rocosos** tienen una corteza sólida y rocosa, un manto de silicatos y un núcleo metálico, principalmente de hierro y níquel.
+> - Los **planetas gaseosos** están compuestos principalmente de hidrógeno y helio, y tienen un núcleo sólido o líquido debido a la presión extrema.
 
 ### 1.1.3 Interacciones entre el Sol y la Tierra: el viento solar y la magnetósfera terrestre
 
@@ -45,24 +45,32 @@
 
 ## 2.1 Características de las capas de la Tierra
 #### Identificar los contrastes en composición y densidad de las capas de la Tierra.
-> - [APUNTES]
+> - **Corteza continental:** Está compuesta principalmente por rocas graníticas con una densidad promedio de 2,7 g/cm<sup>3</sup>.
+> - **Corteza oceánica:** Está compuesta principalmente por rocas basálticas con una densidad promedio de 3,0 g/cm<sup>3</sup>.
+> - **Manto:** Está compuesto por rocas ultramáficas parcialmente fundidas, con una densidad que varía aproximadamente entre de 3,3 y 5,6 g/cm<sup>3</sup>.
+> - **Manto:** Está compuesto por rocas ultramáficas parcialmente fundidas, con una densidad que varía aproximadamente entre 3,3 y 5,6 g/cm<sup>3</sup>, aumentando con la profundidad.
+> - **Núcleo:** Está compuesto principalmente por hierro y níquel, con una densidad que varía aproximadamente entre 10 y 14 g/cm<sup>3</sup>.
 
 
 ## 2.2 Dinámica interna de la Tierra • Conocer los principios básicos de la teoría de la tectónica de placas.
 
 ### 2.2.1 El manto y celdas de convección
+
 #### Describir el fenómeno de convección que produce el movimiento de placas.
-> - [APUNTES]
+> Las corrientes de convección se forman por las diferencias de temperatura entre el manto inferior y la parte superior de la astenosfera. El material caliente menos denso asciende y se enfría para descender nuevamente. En este proceso, se forman corrientes cíclicas que arrastran la litosfera suprayacente, fracturándola en placas.
 
 ### 2.2.2 Límites de placas y sismicidad; límites de placas y procesos magmáticos asociados
-#### Identificar los tipos de límites de placa de acuerdo a su cinemática y los rasgos sismológicos/vulcanológicos asociados.
-> - [APUNTES]
 
+#### Identificar los tipos de límites de placa de acuerdo a su cinemática y los rasgos sismológicos/vulcanológicos asociados.
+> - **Límites convergentes:** Son límites donde las placas colisionan una contra otra. Cuando se encuentra corteza oceánica con corteza continental, o corteza oceánica con corteza oceánica, se produce la **subducción** de una placa bajo la otra, descendiendo hacia la astenosfera. En este proceso, se producen fuertes sismos a lo largo del contacto entre las dos placas, conocido como **Zona de Benioff**. También se forman cordilleras o cadenas de islas en las que se forman volcanes con magmas félsicos a intermedios más explosivos, dado que el agua del mar reduce el punto de fusión de las rocas. Cuando se encuentra corteza continental con corteza continental, se producen cordilleras enormes, con sismicidad intensa, pero no suele haber vulcanismo.
+> - **Límites divergentes:** Son límites donde las placas se separan entre sí. Por lo general, ocurre en el mar, formando dorsales oceánicas a lo largo del límite, donde constantemente se presenta volcanismo fisural con magmas máficos más efusivos. Cuando la divergencia ocurre en el interior de la corteza continental, la corteza se adelgaza en un proceso llamado ***rifting***, y se produce volcanismo a lo largo del límite. Los límites divergentes suelen estar asociados a sismicidad recurrente pero de baja intensidad.
+> - **Límites transformantes:** Son límites donde las placas se desplazan lateralmente una contra la otra. No suelen estar asociadas a volcanismo, pero sí a una sismicidad intensa.
 
 ## 2.3. Dinámica externa de la Tierra
 #### Conocer los principales procesos de modelación del relieve.
-> - [APUNTES]
-
+> - **Meteorización:** Es el conjunto de procesos por los cuales la roca es removida. La **meteorización química** consiste en la alteración de los minerales por procesos químicos tales como la oxidación, la hidrólisis o la disolución. La **meteorización física** o **erosión** consiste en la ruptura de la roca por procesos mecánicos como la acción del agua, del viento o de agentes biológicos.
+> - **Transporte:** Es el movimiento del material meteorizado o erosionado hacia un lugar distinto de donde se originó. Los agentes transportadores pueden ser los ríos, las corrientes marinas, el viento y los glaciares, entre otros.
+> - **Sedimentación:** Es el resultado del final del transporte del material meteorizado. Cuando el agente transportador pierde la energía cinética necesaria para mover el material, este se deposita y se acumula formando sedimentos. Los lugares donde se depositan los sedimentos se denominan **cuencas sedimentarias** y suelen ser valles, llanuras y el fondo de lagos y mares.
 
 
 # 3. Sistema Terrestre
