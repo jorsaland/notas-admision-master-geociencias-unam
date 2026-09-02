@@ -80,20 +80,60 @@
 
 ### 3.1.1 Minerales formadores de roca
 #### Conocer los diferentes minerales formadores de rocas.
-> - [APUNTES]
+> - **Silicatos:** Son los principales minerales que conforman las rocas, conformados principalmente por silicio y oxígeno. Se forman principalmente a partir de magma y lava cuando se solidifica.
+>   - **Cuarzo:** es de los minerales más resistentes y abundantes de la corteza; no se meteoriza químicamente.
+>   - **Feldespatos:** Es el grupo de minerales más abundante de la corteza. Se clasifican en **feldespatos potásicos** y **plagioclasas** (feldespatos de calcio y potasio).
+>   - **Micas:** Son minerales que conforman las arcillas. Presentan exfoliación en 1 plano. Sus principales representantes son la **moscovita** y la **biotita**.
+>   - **Anfíboles:** Minerales con cristales en forma de prisma hexagonal, algunos fibrosos. 
+>   - **Piroxenos:** Minerales máficos (con alto contenido de hierro y magnesio), con cristales en forma de prisma rectangular u octagonal, y a veces fibrosos. 
+>   - **Olivino:** Mineral verdoso habitual en rocas máficas y ultramáficas.
+> - **No silicatos:** Además de los silicatos, hay otros grupos relativamente abundantes en las rocas.
+>   - **Carbonatos:** Minerales que contienen el anión carbónico (CO<sub>3</sub><sup>2-</sup>). Los principales representantes son la calcita y la dolomita, presentes en rocas sedimentarias y metasedimentarias.
+>   - **Óxidos:** Minerales formados por reacciones de oxidación. Sus principales representantes son la hematita, magnetita que se forman en las rocas ígneas. Algunos óxidos también se forman por alteración de otros minerales.
+>   - **Fosfatos:** Minerales formados principalmente por fósforo y oxígeno, su principal representante es el apatito.
+>   - **Otros:** En ciertos contextos, los sulfatos, sulfuros, haluros y elementos nativos también son formadores de rocas.
 
 ### 3.1.2 Clasificación de rocas
 #### Conocer los esquemas de clasificación de las rocas.
-> - [APUNTES]
+> - **Rocas ígneas:** Se forman por el enfriamiento y solidifcación de magma o lava.
+>   - **Rocas plutónicas:** Se forman cuando el magma se enfría bajo la superficie. Suelen presentar cristales más grandes, ya que han tenido el tiempo suficiente para crecer.
+>   - **Rocas volcánicas:** Se forman cuando el magma sale a la superficie o se acerca mucho, perdiendo elementos volátiles disueltos y convirtiéndose en lava antes de enfriarse rápidamente. Suelen presentar cristales más pequeños junto con vidrio.
+> - **Rocas sedimentarias:** Se forman por la cementación de sedimentos o precipitación de sustancias disueltas.
+>   - **Rocas detríticas:** Se forman por la cementación de sedimentos por acción del agua. Se clasifican por tamaño de grano, siendo sus principales representantes las arcillolitas, limolitas, arenitas y conglomerados. 
+>   - **Rocas químicas:** Se forman por la precipitación de sustancias disueltas en el agua, y algunas por agentes biológicos. Aquí se encuentran las evaporitas, calizas.
+> - **Rocas metamórficas:** Se forman por la alteración de otras rocas preexistentes bajo condiciones de extrema temperatura o presión.
+>   - **Rocas foliadas:** Presentan bandas de minerales alineados debido a presiones extremas. Sus principales representantes son la pizarra, filita, esquisto y gneis, dependiendo del grado de metamorfismo y también de la composición original.
+>   - **Rocas no foliadas:** No presentan bandeamiento pero sí cambios en minerales, debido principalmente a altas temperaturas. Sus principales representantes son la cuarcita y el marmol.
 
 ### 3.1.3 Ciclo de las rocas
 #### Comprender los procesos del ciclo de las rocas.
-> - [APUNTES]
+> Los materiales que componen las rocas van de un lado a otro a lo largo del tiempo geológico, conformando también nuevas rocas.
+```mermaid
+graph TD
+    Mg[Magma] -->|Enfriamiento y cristalización| RIg[Rocas ígneas]
+
+    RIg -->|Meteorización y erosión| Sd[Sedimento]
+    RSd  -->|Meteorización y erosión| Sd
+    RMt -->|Meteorización y erosión| Sd
+
+    Sd -->|Compactación y cementación| RSd[Rocas sedimentarias]
+
+    RIg  -->|Calor y presión| RMt[Rocas metamórficas]
+    RSd  -->|Calor y presión| RMt
+
+    RIg -->|Fusión| Mg
+    RSd -->|Fusión| Mg
+    RMt -->|Fusión| Mg
+
+    RMt -->|Calor y presión| RMt
+```
 
 ### 3.1.4 Pedosfera
 #### Conocer las funciones ecológicas que los suelos cumplen para el desarrollo de la vida en el planeta.
-> - [APUNTES]
-
+> - **Soporte físico para la vida:** El suelo proporciona el sustrato mecánico donde se anclan las raíces de las plantas y donde habitan y se desplazan otros organismos.
+> - **Reservorio y ciclo de nutrientes:** El suelo almacena los nutrientes de los organismos que mueren para que las plantas puedan aprovecharlos y crecer.
+> - **Regulación del ciclo del agua:** Absorbe y almacena agua de lluvia, purifica el agua que se infiltra hacia acuíferos y controla la velocidad con que el agua llega a los ríos.
+> - **Regulación del clima:** Funciona como depósito de carbono orgánico que ayuda a reducir los gases de efecto invernadero en la atmósfera.
 
 ## 3.2. Atmósfera
 
@@ -164,7 +204,7 @@
 
 
 
-# 4. Evolución de losseres vivos y tiempo geológico
+# 4. Evolución de los seres vivos y tiempo geológico
 
 
 ## 4.1 Tiempo relativo
