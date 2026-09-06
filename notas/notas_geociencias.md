@@ -139,31 +139,42 @@ graph TD
 
 ### 3.2.1 Composición actual
 #### Conocer la composición de la atmósfera de la Tierra.
-> - [APUNTES]
+> - La atmósfera terrestre está principalmente compuesta de nitrógeno (78%) y oxígeno (21%). En menor medida, también contiene argón (1%) y trazas de dióxido de carbono, vapor de agua y otros gases.
 
 ### 3.2.2 Estructura, capas de la atmósfera
 #### Conocer la estructura de la atmósfera.
-> - [APUNTES]
+> - **Troposfera:** Es la capa más cercana a la superficie terrestre. Tiene un espesor de entre 8 y 20 km. Allí ocurren los fenómenos meteorológicos como la lluvia, y la nieve. Concentra la mayor parte del oxígeno y del vapor de agua. La temperatura disminuye con la altura hasta aproximadamente -55 °C.
+> - **Estratosfera:** Va hasta los 50 km. Allí los rayos ultravioleta transforman el oxígeno en ozono, aumentando la temperatura con la altura hasta alcanzar nuevamente unos 0 °C. La mezcla de gases ocurre mucho más rápido horizontalmente que verticalmente, dándole una estructura estratificada.
+> - **Mesosfera:** Va hasta los 85 km. Allí, la temperatura vuelve a decrecer con la altura. Contiene apenas un 0,1% del total de la masa de la atmósfera. Se caracteriza principalmente por una alta ionización y reacciones químicas frecuentes.
+> - **Ionosfera o termosfera:** Va hasta los 600-800 km. Allí, la temperatura nuevamente aumenta con la altura, debido a la ionización de átomos de sodio y moléculas por la acción de los rayos gamma y rayos X. Contiene la línea de Karman que marca el inicio del espacio exterior.
+> - **Exosfera:** Va hasta los 10000 km. Es una capa muy tenue de helio e hidrógeno con partículas de polvo cósmico. Allí los gases son capaces de escapar de la atracción gravitacional de la Tierra.
 
 ### 3.2.3 Procesos atmosféricos
 #### Comprender los procesos que ocurren en la atmósfera, así como sus escalas espaciales y temporales.
-> - [APUNTES]
+> - **Microescala:** Fenómenos de muy corta duración, de aproximadamente un día, con medidas desde los pocos metros hasta aproximadamente 1 km. Aquí entran la difusión molecular, los remolinos de polvo, la formación de gotas de lluvia y el viento a ciertas horas del día. Están dominados por la viscosidad y los intercambios de calor con el suelo.
+> - **Mesoescala:** Fenómenos que duran varios días hasta una semana, con medidas que van desde 1 km hasta pocos miles de km. Incluye tormentas grandes, ondas de gravedad atmosféricas, líneas de turbonada (*squall lines*) y bandas de precipitación. Está dominada por sistemas convectivos.
+> - **Macroescala o escala sinóptica:** Fenómenos que duran varias semanas y con tamaños de varios miles de kilómetros. Incluye los huracanes y las corrientes de chorro (*jet streams*) en la troposfera superior. Está dominada por el efecto Coriolis y el equilibrio geostrófico (entre el gradiente de presión y el efecto Coriolis).
+> - **Megaescala o escala planetaria:** Fenómenos que duran varios meses o años y con tamaños desde varios miles de kilómetros hasta todo el planeta. Incluye el sistema de células convectivas, las ondas de Rossby, los monzones y el ENSO. Está fuertemente dominada por el efecto Coriolis.
 
 ### 3.2.4 Clima y tiempo meteorológico
 
 #### Distinguir entre el clima y el tiempo meteorológico.
-> - [APUNTES]
+> - El tiempo hace referencia al estado de la atmósfera en el corto plazo y en escalas pequeñas: la lluvia, la nieve, el viento en alguna zona en un momento puntual.
+> - El clima hace referencia al estado de la atmósfera en el largo plazo y en escalas grandes: la composición, la temperatura media en alguna latitud o alguna zona geográfica mayor.
 
 ### 3.2.5 Causas del cambio climático global
 
 #### Distinguir entre cambio climático natural y antropogénico.
-> - [APUNTES]
+> - El cambio climático natural puede ocurrir como consecuencia de fenómenos como los ciclos de Milankovitch, erupciones volcánicas e incluso por la evolución biológica.
+> - El cambio climático antropogénico está principalmente dominado por la combustión de combustibles fósiles que aumentan significativamente la proporción de dióxido de carbono en la atmósfera. En su momento, los clorofluorocarbonos tuvieron un impacto enorme en la capa de ozono, pero fueron posteriormente remplazados por otros productos.
 
 ### 3.2.6 Efectos del cambio climático
 
 #### Reconocer las principales afectaciones del cambio climático antropogénico.
-> - [APUNTES]
-
+> La mayoría de los efectos están relacionados con el aumento de la temperatura media global, a causa de la intensificación en el efecto invernadero por el dióxido de carbono.
+> - Deshielo de los casquetes glaciares y subida del nivel del mar, justamente por el aumento de temperatura global.
+> - Fenómenos meteorológicos extremos, como tormentas, huracanes y sequías más fuertes.
+> - Acidificación del océano debido a su capacidad para absorber el dióxido de carbono y formar ácido carbónico, causando el blanqueamiento de arrecifes de coral y la pérdida de biodiversidad asociada a estos ecosistemas.
 
 ## 3.3. Hidrósfera
 
