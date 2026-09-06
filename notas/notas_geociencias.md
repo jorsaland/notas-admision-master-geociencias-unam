@@ -240,13 +240,19 @@ graph TD
 
 ### 3.4.1 Interacción de las esferas terrestres (biósfera, geosfera, hidrósfera y atmósfera)
 #### Interpretar las interacciones entre las esferas terrestres.
-> - [APUNTES]
+> - Biósfera y geósfera: Las plantas crecen aprovechando los nutrientes y minerales del suelo, y al morir los devuelven. Además, las raíces de las plantas dan sostén al suelo, modificando su dinámica.
+> - Biósfera e hidrósfera: Los seres vivos aprovechan el agua para sus funciones vitales y posteriormente la expulsan.
+> - Biósfera y atmósfera: Los animales aprovechan el oxígeno mediante la respiración y liberan dióxido de carbono de regreso. Las plantas realizan la fotosíntesis tomando el dióxido de carbono y produciendo oxígeno.
+> - Geósfera e hidrósfera: El agua de los ríos y la lluvia erosionan las rocas y modelan el relieve de la superficie terrestre a lo largo del tiempo geológico. Las rocas porosas y permeables actúan como reservorios de agua (acuíferos).
+> - Geósfera y atmósfera: El viento actúa como agente erosivo al transportar partículas de sedimento y hacerlas colisionar contra las rocas, moldeando paisajes desérticos.
+> - Hidrósfera y atmósfera: El calor del sol evapora el agua de los océanos y cuerpos de agua dulce, integrándola en la atmósfera. Allí se condensa formando nubes y regresando a la hidrosfera en forma de lluvia.
 
 ### 3.4.2 Ciclos biogeoquímicos
 #### Reconocer las reacciones principales de los ciclos biogeoquímicos del C, N, P y S.
-> - [APUNTES]
-
-
+> - El ciclo del carbono se basa principalmente en el equilibrio entre la formación y la descomposición de la materia orgánica. En la fotosíntesis, los organismos autótrofos fijan el dióxido de carbono (CO<sub>2</sub>) y forman glucosa (C<sub>6</sub>H<sub>12</sub>O<sub>6</sub>) utilizando la energía del sol. En la respiración celular, este proceso se revierte liberando energía y devolviendo el dióxido de carbono a la atmósfera. En los incendios forestales y en el volcanismo también se liberan grandes cantidades de dióxido de carbono hacia la atmósfera.
+> - El nitrógeno (N<sub>2</sub>) es el gas más abundante en la atmósfera terrestre. Algunas bacterias son capaces de transformar este gas en amoníaco (NH<sub>3</sub>) mediante fijación. Otras bacterias desnitrifican el amoníaco, devolviendo a la atmósfera el nitrógeno gaseoso.
+> - El fósforo presente en fosfatos insolubles en las rocas se libera por acción del agua acidificada. Las plantas lo absorben e incorporan en moléculas orgánicas como el ATP, para liberarlo al morir.
+> - Las bacterias anaeróbicas pueden usar el sulfato como aceptor de electrones, produciendo ácido sulfhídrico (H<sub>2</sub>S). Otras bacterias lo oxidan y forman sulfatos que regresan a la tierra.
 
 # 4. Evolución de los seres vivos y tiempo geológico
 
