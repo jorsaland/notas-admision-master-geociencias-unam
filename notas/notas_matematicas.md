@@ -4,8 +4,33 @@
 ## 1.1 Exponenciación, funciones logarítmicas
 
 #### Emplear las reglas logarítmicas y las exponenciales.
-> - [APUNTES]
+> Reglas de los exponentes:
+> - **Multiplicación de bases iguales:** Es igual a la base elevada a la suma de los exponentes.
+> $$ {b^x}{b^y} = b^{x+y} $$
+> - **División de bases iguales:** Es igual a la base elevada a la resta de los exponentes.
+> $$ \frac{b^x}{b^y} = b^{x+y} $$
+> - **División de bases iguales:** Es igual a la base elevada a la resta de los exponentes.
+> $$ \frac{b^x}{b^y} = b^{x+y} $$
+> - **Potencia de una potencia:** Es igual a la base elevada al producto de los exponentes.
+> $$ (b^x)^{y} = b^{xy} $$
+> - **Exponente cero:** Es igual a 1, siempre y cuando la base no sea 0.
+> $$ b^0 = 1 $$
+> - **Exponente negativo:** Es igual a 1 dividido entre la base con el exponente positivo (o en general, del signo opuesto).
+> $$ b^{-x} = \frac{1}{b^x}
 
+> Reglas de los logaritmos:
+> - **Suma de bases iguales:** Es igual al logaritmo sobre la misma base de la multiplicación de los argumentos.
+> $$ \log_b(x) + \log_b(y) = \log_b(x \cdot y) $$
+> - **Resta de bases iguales:** Es igual al logaritmo sobre la misma base de la división de los argumentos.
+> $$ \log_b(x) - \log_b(y) = \log_b\left(\frac{x}{y}\right) $$
+> - **Logaritmo multiplicado por un número:** Es igual al logaritmo sobre la misma base del argumento elevado al número.
+> $$ \log_b(x^k) = k \cdot \log_b(x) $$
+> - **Cambio de base:** La división de logaritmos con la misma base es igual al logaritmo del argumento del numerador con base en el argumento del denominador.
+> $$ \log_a(x) = \frac{\log_b(x)}{\log_b(a)} $$
+> - **Logaritmo de la base:** Es igual a 1 siempre y cuando el argumento (y la base) no sea 0.
+> $$ \log_b(b) = 1 $$
+> - **Logaritmo de 1:** Es igual a 0 siempre y cuando la base no sea 0.
+> $$ \log_b(1) = 0 $$
 
 ## 1.2 Ecuación de la recta
 
