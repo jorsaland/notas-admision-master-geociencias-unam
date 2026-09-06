@@ -261,15 +261,20 @@ graph TD
 
 ### 4.1.1 Principios geológicos para definir edades relativas
 #### Conocer los principios para definir las edades relativas de las unidades de roca.
-> - [APUNTES]
-
+> - **Principio de superposición:** Los estratos de rocas sedimentarias se depositan una sobre otra, con las capas más antiguas abajo y las más recientes arriba.
+> - **Principio de horizontalidad original:** Los sedimentos se depositan en capas originalmente horizontales o paralelas a la superficie. Si hoy se encuentran inclinadas o dobladas, significa que sufrieron deformaciones posteriores.
+> - **Principio de continuidad lateral:** Un estrato se extiende horizontalmente en todas direcciones y tiene la misma antigüedad en todos sus puntos.
+> - **Principio de intersección o relaciones de corte:** Cualquier estructura geológica que corta a otra es más joven que la roca cortada.
+> - **Principio de inclusiones:** Los fragmentos de roca (inclusiones) que se encuentran dentro de otra son más antiguos que la roca que los contiene.
+> - **Principio de sucesión faunística:** Los fósiles encontrados en los estratos siguen un orden evolutivo definido y no se repiten en el tiempo, lo que permite datar y correlacionar rocas de diferentes lugares con fósiles similares.
+> - **Actualismo y uniformismo:** Los procesos geológicos del pasado operaron de la misma manera y con las mismas leyes físicas que observamos en la actualidad.
 
 ## 4.2. Tiempo absoluto
 
 ### 4.2.1 Decaimiento radioactivo
 #### Conocer el concepto de decaimiento isotópico.
-> - [APUNTES]
+> Un isótopo es inestable cuando su núcleo es inestable. En una reacción nuclear, un isótopo puede cambiar su número atómico convirtiéndose en un isótopo más estable de otro elemento químico.
 
 ### 4.2.2 Fechamientos isotópicos
 #### Conocer los principios del fechamiento isotópico.
-> - [APUNTES]
+> - El decaimiento es un proceso que ocurre con una temporalidad precisa. El **tiempo de vida media** mide cuánto tiempo tiene que pasar para que la mitad de los isótopos de un elemento decaigan. Conociendo la proporción relativa del isótopo radiactivo y su producto es posible calcular con gran exactitud hace cuánto se formaron esos isótopos. Esto permite datar rocas ígneas cuyos isótopos radiactivos se forman al solidificarse el magma.
