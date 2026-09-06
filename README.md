@@ -1,4 +1,4 @@
-# Notas
+# Acerca de
 
 - Este es un repositorio público con notas de estudio para los exámenes de admisión del programa de [Maestría en Ciencias de la Tierra](https://www.pctierra.unam.mx/) ofrecido por la Universidad Autónoma de México (UNAM).
 
