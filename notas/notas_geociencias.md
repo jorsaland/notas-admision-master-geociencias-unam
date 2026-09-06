@@ -180,28 +180,61 @@ graph TD
 
 ### 3.3.1 Ciclo hidrológico terrestre y sus componentes
 #### Relacionar los cambios de reservorio y los estados del agua.
-> - [APUNTES]
+> El **balance hídrico** estudia matemáticamente cómo cambia un reservorio o acuífero.
+
+> Las entradas de agua se denominan **recarga**:
+> - Precipitación: el agua de la lluvia percola en el suelo hasta alcanzar el nivel freático.
+> - Escorrentía superficial: ocurre cuando el nivel del agua superficial está más alto que el nivel freático, el agua se infiltra.
+> - Recarga desde otros acuíferos: Otros acuíferos vecinos pueden aportar al nivel freático de un acuífero.
+Recarga artificial: inyección deliberada de agua mediante pozos de recarga, balsas de infiltración, etc.
+> - Recarga artificial: El riego artificial en zonas agrícolas también aporta al nivel freático. También puede ser inyección deliberada mediante pozos de recarga.
+
+> Las salidas de agua se denominan **descarga**:
+> - Escorrentía superficial: Si el nivel freático supera el del agua superficial, puede alimentar a los cuerpos de agua superficiales.
+> - Manantiales: En algunos puntos donde hay una diferencia de altitud entre el acuífero y la superficie, el agua del acuífero puede brotar directamente.
+> - Evapotranspiración: Cuando el nivel freático está cerca de la superficie, las raíces de los árboles pueden alcanzarlo y una parte también se puede evaporar de forma directa.
+> - Descarga hacia otros acuíferos: El acuífero puede aportar al nivel freático de otros acuíferos vecinos.
+> - Extracción artificial: A través del bombeo o en pozos artesianos, el agua puede ser extraída para uso humano.
 
 ### 3.3.2 Cuenca hidrogeológica
 #### Distinguir la función de la cuenca hidrogeológica.
-> - [APUNTES]
+> - Almacenamiento natural: Retiene el agua de lluvia o de ríos que se filtra en el subsuelo, manteniéndola protegida de la evaporación directa.
+> - Regulación del ciclo hídrico: Libera el agua de forma lenta y constante hacia la superficie, manteniendo el caudal de los ríos, lagos y manantiales incluso durante las temporadas de sequía.
+>- Filtración y purificación: A medida que el agua viaja a través de los poros del sedimento o de las rocas permeables, pasa por un proceso de filtración natural que elimina impurezas y sedimentos.
+> - Sustento de ecosistemas: Provee la humedad necesaria para mantener vivos los humedales, los bosques de ribera y la vegetación nativa que depende del agua subterránea.
 
 ### 3.3.3 Ríos, lagos, agua subterránea y glaciares
 #### Distinguir entre las características de las aguas continentales y su relación con el paisaje.
-> - [APUNTES]
+> - Ríos: Son corrientes continuas de agua superficial que fluyen por gravedad desde las zonas altas hacia las bajas. Erosionan valles profundos en forma de "V". En su curso bajo, al disminuir la velocidad, acumulan sedimentos y forman llanuras aluviales y meandros.
+> - Lagos: Son grandes depósitos de agua acumulados en depresiones o cuencas terrestres. Regulan el flujo del agua superficial y suavizan el entorno.
+> - Aguas subterráneas: Se infiltran y se acumulan bajo la superficie terrestre formando acuíferos en rocas porosas o suelos. En zonas donde hay rocas solubles, las disuelven y generan paisajes kársticos, con cuevas.
+> - Glaciares: Son masas de hielo formadas por la acumulación y compactación de nieve en altas cumbres o regiones polares. Modelan valles en forma de "U" conforme el hielo fluye (lentamente), ensanchando las montañas y formando depósitos llamados morrenas.
 
 ### 3.3.4. Ciclo hidrogeológico
 #### Identificar los componentes del ciclo hidrogeológico.
-> - [APUNTES]
+```mermaid
+graph TD
+    A[Océanos, ríos y lagos] --> |Evapotranspiración| V(Vapor de agua)
+    V -->|Condensación| C(Nubes y Niebla)
+    C -->|Precipitación| T{Tierra}
+    
+    T -->|Escorrentía Superficial| A
+    T -->|Infiltración| S(Agua Subterránea)
+    S -->|Descarga| A
+```
 
 ### 3.3.5 Tipos de acuíferos
 #### Distinguir características de la roca y el suelo para que el agua se acumule y fluya.
-> - [APUNTES]
+> - **Acuíferos no confinados:** El agua se asienta sobre una capa de roca impermeable, pero tiene una capa permeable por encima. La zona superior está en contacto directo con el suelo permeable y la atmósfera. El nivel freático sube o baja de acuerdo con el balance hídrico.
+> - **Acuíferos confinados:**  El agua está atrapada entre dos capas de roca impermeables (como arcillolitas o rocas cristalina). Al estar encerrada, Puede encontrarse a alta presión y salir con fuerza a la superficie a través de pozos artesianos.
 
 ### 3.3.6 Océanos, mares: características generales, geografía y dimensiones
 #### Conocer las variables que determinan el comportamiento de las corrientes marinas.
-> - [APUNTES]
-
+> - El viento sobre la superficie del agua empuja las capas superiores del océano. Los vientos planetarios, como los alisios, son los principales motores de las corrientes superficiales
+> - El efecto Coriolis debido a la rotación de la Tierra deflecta las corrientes marinas, en el hemisferio norte hacia la derecha y en el sur hacia la izquierda.
+> - La salinidad y la temperatura regulan la circulación del agua formando una "cinta transportadora" (circulación termohalina). En los casquetes polares se forma hielo excluyendo la sal, haciendo que el agua se vuelva más densa y se sumerja, emergiendo nuevamente en las costas.
+> - La topografía submarina y la configuración de las costas actúan como una barrera natural que restringe el movimiento del océano, desviando y canalizando corrientes.
+> - Las mareas por la atracción gravitatoria de la luna y el sol deforman la masa de agua, haciendo subir y bajar el nivel del mar.
 
 ## 3.4 Biósfera
 
