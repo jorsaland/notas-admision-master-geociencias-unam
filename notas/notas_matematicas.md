@@ -109,7 +109,16 @@ Para una parábola vertical, que abre hacia arriba o hacia abajo, está dada por
 >Además, podemos aprovechar la identidad fundamental de la trigonometría:
 >
 > $$ \sin^2(\alpha) + \cos^2(\alpha) = 1 $$
-
+>
+> Otras identidades que pueden ser útiles son las del ángulo doble
+>
+> $$
+> \begin{aligned}
+> \sin(2\alpha) = 2 \sin^2(\alpha) \cos(\alpha) \\
+> \cos(2\alpha) = \cos^2(\alpha) - \sin^2(\alpha) \\
+> \tan(2\alpha) = \frac{2\tan(\alpha)}{1 - \tan^2(\alpha)} \\
+> \end{aligned}
+> $$
 
 
 # 2. Álgebra Lineal
@@ -274,11 +283,65 @@ Para una parábola vertical, que abre hacia arriba o hacia abajo, está dada por
 ## 3.1 Funciones, límites y continuidad
 
 #### Comprender gráficamente el concepto de función.
-> - [APUNTES]
+> Una gráfica de función es la representación visual de una estructura matemática que asigna a cada valor de entrada un único valor de salida. El eje horizontal (x) muestra los valores de entrada o variable independiente. El eje vertical (y) muestra los valores de salida o variable dependiente.
+>
+> <img src="../static/funcion.png" alt="Función" width="60%">
+
 
 #### Calcular límites de funciones algebraicas básicas.
-> - [APUNTES]
-
+> Cuando no hay indeterminaciones, se pueden resolver por sustitución directa. Por ejemplo:
+>
+> $$
+> \begin{aligned}
+> f(x) = 5x \\
+> \lim_{x \to 2} f(x) = \lim_{x \to 2} (5x) \\
+> \lim_{x \to 2} f(x) = 5 \times 2 \\
+> \lim_{x \to 2} f(x) = 10 \\
+> \end{aligned}
+> $$
+>
+> Cuando hay indeterminaciones, se debe usar alguno de los siguientes métodos:
+>
+> **Factorización:** Se factoriza un término que tiende a cero y se cancela con otro. Por ejemplo, el límite cuando $x$ tiende a 1 de la siguiente función se puede calcular factorizando por diferencia de cuadrados.
+>
+> $$
+> \begin{aligned}
+> f(x) = \frac{x^2 - 1}{x-1} \\
+> \lim_{x \to 1} f(x) = \lim_{x \to 1} \left ( \frac{x^2 - 1}{x-1} \right ) \\
+> \lim_{x \to 1} f(x) = \lim_{x \to 1} \left ( \frac{(x+1)(x-1)}{x-1} \right ) \\
+> \lim_{x \to 1} f(x) = \lim_{x \to 1} (x+1) \\
+> \lim_{x \to 1} f(x) = 1+1 \\
+> \lim_{x \to 1} f(x) = 2 \\
+> \end{aligned}
+> $$
+>
+> **Conjugación:** Se factoriza un término que tiende a cero y se cancela con otro. Por ejemplo, el límite cuando $x$ tiende a 1 de la siguiente función se puede calcular factorizando por diferencia de cuadrados. En el siguiente ejemplo, hay una indeterminación cuando $x$ es igual a 4.
+>
+> $$
+> \begin{aligned}
+> f(x) = \frac{ \sqrt{x} - 2}{x-4} \\
+> \lim_{x \to 4}f(x) = \lim_{x \to 4} \left ( \frac{ \sqrt{x} - 2}{x-4} \right ) \\
+> \lim_{x \to 4}f(x) = \lim_{x \to 4} \left ( \frac{ (\sqrt{x} - 2)(\sqrt{x} + 2) }{(x-4)(\sqrt{x} + 2)} \right ) \\
+> \lim_{x \to 4}f(x) = \lim_{x \to 4} \left ( \frac{ (\sqrt{x})^2 - (2)^2 }{(x-4)(\sqrt{x} + 2)} \right ) \\
+> \lim_{x \to 4}f(x) = \lim_{x \to 4} \left ( \frac{x-4}{(x-4)(\sqrt{x} + 2)} \right ) \\
+> \lim_{x \to 4}f(x) = \lim_{x \to 4} \left ( \frac{1}{\sqrt{x} + 2} \right ) \\
+> \lim_{x \to 4}f(x) = \frac{1}{\sqrt{4} + 2} \\
+> \lim_{x \to 4}f(x) = \frac{1}{4} \\
+> \end{aligned}
+> $$
+>
+> **Identidades trigonométricas:** Se aprovechan identidades trigonométricas para remplazar funciones que dan indeterminaciones. En el siguiente ejemplo, se calcula el límite cuando $x$ tiende a 0 de una función.
+>
+> $$
+> \begin{aligned}
+> f(x) = \frac{\sin(x)}{\sin(2x)} \\
+> \lim_{x \to 0}f(x) = \lim_{x \to 0} \left ( \frac{\sin(x)}{\sin(2x)} \right ) \\
+> \lim_{x \to 0}f(x) = \lim_{x \to 0} \left ( \frac{\sin(x)}{ 2 \sin(x) \cos(x) } \right ) \\
+> \lim_{x \to 0}f(x) = \lim_{x \to 0} \left ( \frac{1}{2\cos(x)} \right ) \\
+> \lim_{x \to 0}f(x) = \frac{1}{2\cos(0)} \\
+> \lim_{x \to 0}f(x) = \frac{1}{2} \\
+> \end{aligned}
+> $$
 
 ## 3.2 Derivación
 
