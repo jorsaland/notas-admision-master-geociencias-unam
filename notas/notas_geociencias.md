@@ -73,6 +73,7 @@
 > - **Sedimentación:** Es el resultado del final del transporte del material meteorizado. Cuando el agente transportador pierde la energía cinética necesaria para mover el material, este se deposita y se acumula formando sedimentos. Los lugares donde se depositan los sedimentos se denominan **cuencas sedimentarias** y suelen ser valles, llanuras y el fondo de lagos y mares.
 
 
+
 # 3. Sistema Terrestre
 
 
@@ -135,6 +136,7 @@ graph TD
 > - **Regulación del ciclo del agua:** Absorbe y almacena agua de lluvia, purifica el agua que se infiltra hacia acuíferos y controla la velocidad con que el agua llega a los ríos.
 > - **Regulación del clima:** Funciona como depósito de carbono orgánico que ayuda a reducir los gases de efecto invernadero en la atmósfera.
 
+
 ## 3.2. Atmósfera
 
 ### 3.2.1 Composición actual
@@ -175,6 +177,7 @@ graph TD
 > - Deshielo de los casquetes glaciares y subida del nivel del mar, justamente por el aumento de temperatura global.
 > - Fenómenos meteorológicos extremos, como tormentas, huracanes y sequías más fuertes.
 > - Acidificación del océano debido a su capacidad para absorber el dióxido de carbono y formar ácido carbónico, causando el blanqueamiento de arrecifes de coral y la pérdida de biodiversidad asociada a estos ecosistemas.
+
 
 ## 3.3. Hidrósfera
 
@@ -236,6 +239,7 @@ graph TD
 > - La topografía submarina y la configuración de las costas actúan como una barrera natural que restringe el movimiento del océano, desviando y canalizando corrientes.
 > - Las mareas por la atracción gravitatoria de la luna y el sol deforman la masa de agua, haciendo subir y bajar el nivel del mar.
 
+
 ## 3.4 Biósfera
 
 ### 3.4.1 Interacción de las esferas terrestres (biósfera, geosfera, hidrósfera y atmósfera)
@@ -254,6 +258,8 @@ graph TD
 > - El fósforo presente en fosfatos insolubles en las rocas se libera por acción del agua acidificada. Las plantas lo absorben e incorporan en moléculas orgánicas como el ATP, para liberarlo al morir.
 > - Las bacterias anaeróbicas pueden usar el sulfato como aceptor de electrones, produciendo ácido sulfhídrico (H<sub>2</sub>S). Otras bacterias lo oxidan y forman sulfatos que regresan a la tierra.
 
+
+
 # 4. Evolución de los seres vivos y tiempo geológico
 
 
@@ -268,6 +274,7 @@ graph TD
 > - **Principio de inclusiones:** Los fragmentos de roca (inclusiones) que se encuentran dentro de otra son más antiguos que la roca que los contiene.
 > - **Principio de sucesión faunística:** Los fósiles encontrados en los estratos siguen un orden evolutivo definido y no se repiten en el tiempo, lo que permite datar y correlacionar rocas de diferentes lugares con fósiles similares.
 > - **Actualismo y uniformismo:** Los procesos geológicos del pasado operaron de la misma manera y con las mismas leyes físicas que observamos en la actualidad.
+
 
 ## 4.2. Tiempo absoluto
 

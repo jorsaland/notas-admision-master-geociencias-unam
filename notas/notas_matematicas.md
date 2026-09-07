@@ -54,6 +54,7 @@
 
 > $$ \log_b(1) = 0 $$
 
+
 ## 1.2 Ecuación de la recta
 
 #### Obtener los parámetros que definen las ecuaciones de rectas.
@@ -62,6 +63,7 @@
 > $$ y = mx + b $$
 
 > donde $x$ y $y$ son las posiciones en los respectivos ejes, $m$ la pendiente de la recta y $b$ el punto donde la recta intercepta al eje $y$.
+
 
 ## 1.3 Ecuaciones de parábolas e hipérbolas
 
@@ -85,6 +87,7 @@ Para una parábola vertical, que abre hacia arriba o hacia abajo, está dada por
 
 > <img src="../static/hiperbola.png" alt="Hipérbola" width="60%"/>
 
+
 ## 1.4 Trigonometría
 
 #### Resolver problemas de trigonometría.
@@ -106,6 +109,8 @@ También tenemos la ecuación de Pitágoras que relaciona los tres lados:
 Además, podemos aprovechar la identidad fundamental de la trigonometría:
 
 > $$ \sin^2(\alpha) + \cos^2(\alpha) = 1 $$
+
+
 
 # 2. Álgebra Lineal
 
