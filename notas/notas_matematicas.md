@@ -118,8 +118,128 @@ Además, podemos aprovechar la identidad fundamental de la trigonometría:
 ## 2.1 Sistemasde ecuaciones lineales
 
 #### Resolver sistemas de ecuaciones lineales.
-> - [APUNTES]
 
+> **Método de sustitución:** Consiste en despejar una de las variables y luego remplazarla en la otra ecuación. También se puede aplicar en sistemas de ecuaciones lineales con más de 2 variables. Ejemplo:
+>
+> $$
+> \begin{aligned}
+> [1] \space 4x - 2y = 8 \\
+> [2] \space 3x + y = 2 \\
+> \end{aligned}
+> $$
+>
+> Despejamos por ejemplo, $y$ en la ecuación 2:
+>
+> $$
+> \begin{aligned}
+> 3x + y = 2 \\
+> [3] \space y = -3x + 2 \\
+> \end{aligned}
+> $$
+>
+> Ahora, podemos remplazar $y$ en la ecuación 1:
+>
+> $$
+> \begin{aligned}
+> 4x - 2y = 8 \\
+> 4x - 2(-3x + 2) = 8 \\
+> 4x + 6x - 4 = 8 \\
+> 4x + 6x = 8 + 4 \\
+> 10x = 12 \\
+> x = \frac{12}{10} \\
+> x = \frac{6}{5} \\
+> \end{aligned}
+> $$
+>
+> Finalmente, podemos remplazar $x$ en la ecuación 3:
+>
+> $$
+> \begin{aligned}
+> y = -3x + 2 \\
+> y = -3 \left ( \frac{6}{5} \right ) + 2 \\
+> y = - \frac{18}{5} + 2 \\
+> y = - \frac{8}{5} \\
+> \end{aligned}
+> $$
+>
+> ---
+> **Método de igualación:** Consiste en despejar la misma variable en ambas ecuaciones y luego igualarlas para despejar la otra. En sistemas de ecuaciones con más de 2 variables, hay que combinarlo con otros métodos. Ejemplo:
+>
+> $$
+> \begin{aligned}
+> [1] \space 4x - 2y = 8 \\
+> [2] \space 3x + y = 2 \\
+> \end{aligned}
+> $$
+>
+> Podemos retomar la ecuación 3 del método de sustitución, calculada a partir de la ecuación 2:
+>
+> $$
+> \begin{aligned}
+> [3] \space y = -3x + 2 \\
+> \end{aligned}
+> $$
+>
+> Y ahora despejamos $y$ de la ecuación 1:
+>
+> $$
+> \begin{aligned}
+> 4x - 2y = 8 \\
+> 4x = 8 + 2y \\
+> 2y = 4x - 8 \\
+> y = \frac{4}{2} x - \frac{8}{2} \\
+> [4] \space y = 2x - 4 \\
+> \end{aligned}
+> $$
+>
+> Entonces podemos igualar las ecuaciones 3 y 4:
+>
+> $$
+> \begin{aligned}
+> -3x + 2 = 2x - 4 \\
+> -3x - 2x = -4 - 2 \\
+> -5x = -6 \\
+> x = \frac{6}{5} \\
+> \end{aligned}
+> $$
+>
+> Y finalmente, se obtiene $y$ remplazando $x$ en cualquier ecuación como en el método de sustitución.
+>
+> ---
+> **Método de reducción:** Consiste en multiplicar ambas ecuaciones para que al sumarlas, se pueda anular alguna de las variables. Ejemplo:
+>
+> $$
+> \begin{aligned}
+> [1] \space 4x - 2y = 8 \\
+> [2] \space 3x + y = 2 \\
+> \end{aligned}
+> $$
+> Multiplicamos la ecuación 1 por 1 y la ecuación 2 por 2, para obtener $-2y$ y $2y$.
+> $$
+> \begin{aligned}
+> [\times 1] \space 4x - 2y = 8 \\
+> [\times 2] \space 3x + y = 2 \\
+> \end{aligned}
+> $$
+>
+> $$
+> \begin{aligned}
+> 4x - 2y = 8 \\
+> 6x + 2y = 4 \\
+> \hline
+> 10x + 0 = 12 \\
+> \end{aligned}
+> $$
+>
+> Finalmente, despejamos $x$ y remplazamos como en los métodos anteriores
+>
+> $$
+> \begin{aligned}
+> 10x = 12 \\
+> x = \frac{12}{10} \\
+> x = \frac{6}{5} \\
+> \end{aligned}
+> $$
 
 ## 2.2 Polinomios y ecuación cuadrática
 
