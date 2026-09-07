@@ -244,10 +244,27 @@ Además, podemos aprovechar la identidad fundamental de la trigonometría:
 ## 2.2 Polinomios y ecuación cuadrática
 
 #### Resolver polinomios cuadráticos.
-> - [APUNTES]
-
+> Dada una ecuación cuadrática de la forma
+>
+> $$ ax^2 + bx + c $$
+>
+> La ecuación general para solucionarla es:
+> 
+> $$ x = \frac{-b \pm \sqrt{b^2 - 4ac}}{2a} $$
+>
+>
 #### Aplicar reglas de factorización para simplificar polinomios.
-> - [APUNTES]
+> - **Factor común:** Consiste en extraer la variable con menor exponente. Ejemplo:
+>
+> $$ 2x^2 + 4x = 2x(x+2) $$
+>
+> - **Diferencia de cuadrados:** Cuando un binomio consta de una resta con raíces exactas, esto es igual a multiplicar la suma de las raíces con la resta de las raíces. La fórmula general es:
+>
+> $$ a^2 - b^2 = (a+b)(a-b) $$
+>
+> **Trinomio cuadrado perfecto:** Un trinomio donde el primer y tercer término tienen raíces cuadradas exactas, y el del medio es el doble producto de ambas. La fórmula general es:
+>
+> $$ a^2 \pm 2ab + b^2 = (a \pm b)^2 $$
 
 
 
