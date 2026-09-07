@@ -346,8 +346,116 @@ Para una parábola vertical, que abre hacia arriba o hacia abajo, está dada por
 ## 3.2 Derivación
 
 #### Calcular derivadas de funciones analíticas.
-> - [APUNTES]
-
+> **Derivada de una constante:** La derivada de una constante siempre es igual a 0.
+>
+> $$ \frac{\mathrm{d}}{\mathrm{d}x} c = 0 $$
+>
+> **Regla de la potencia:** La derivada de una variable elevada a una potencia se calcula con la siguiente fórmula:
+> 
+> $$ \frac{\mathrm{d}}{\mathrm{d}x} x^n = nx^{n-1} $$
+>
+> Por ejemplo:
+>
+> $$ \frac{\mathrm{d}}{\mathrm{d}x} x^4 = 4x^{3} $$
+>
+> **Derivadas de funciones trigonométricas:** Para las funciones trigonométricas básicas, tenemos:
+> 
+> $$
+> \begin{aligned}
+> \frac{\mathrm{d}}{\mathrm{d}x} \sin(x) = \cos(x) \\
+> \frac{\mathrm{d}}{\mathrm{d}x} \cos(x) = - \sin(x) \\
+> \frac{\mathrm{d}}{\mathrm{d}x} \tan(x) = \sec^2(x) \\
+> \end{aligned}
+> $$
+>
+> **Derivada de función exponencial:** El caso general y para $e$ están dados por:
+> 
+> $$
+> \begin{aligned}
+> \frac{\mathrm{d}}{\mathrm{d}x} a^x = a^x \ln(a) \\
+> \frac{\mathrm{d}}{\mathrm{d}x} e^x = e^x \\
+> \end{aligned}
+> $$
+>
+> **Derivada de logaritmo:** El caso general y para el logaritmo natural están dados por:
+> 
+> $$
+> \begin{aligned}
+> \frac{\mathrm{d}}{\mathrm{d}x} \log_b(x) = \frac{1}{x \ln(a)} \\
+> \frac{\mathrm{d}}{\mathrm{d}x} \ln(x) = \frac{1}{x} \\
+> \end{aligned}
+> $$
+>
+> **Operaciones de derivadas:** Los siguientes casos ilustran las equivalencias entre derivadas compuestas:
+> 
+> - Suma de funciones:
+>
+> $$
+> \begin{aligned}
+> f(x) = u+v \\
+> f'(x) = u'+v' \\
+> \end{aligned}
+> $$
+>
+> - Multiplicación por una constante
+>
+> $$
+> \begin{aligned}
+> f(x) = cu \\
+> f'(x) = cu' \\
+> \end{aligned}
+> $$
+>
+> - Multiplicación de funciones
+>
+> $$
+> \begin{aligned}
+> f(x) = uv \\
+> f'(x) = u'v + uv' \\
+> \end{aligned}
+> $$
+>
+> - División de funciones
+>
+> $$
+> \begin{aligned}
+> f(x) = \frac{u}{v} \\
+> f'(x) = \frac{u'v - uv'}{v^2} \\
+> \end{aligned}
+> $$
+>
+> **Regla de la cadena:** 
+>
+> $$
+> \begin{aligned}
+> f(x) = g(h(x)) \\
+> f'(x) = g'(h(x)) \times h'(x) \\
+> \end{aligned}
+> $$
+>
+> Por ejemplo:
+>
+> $$ f(x) = \sin(x^3) $$
+>
+> Aquí tenemos que:
+>
+> $$
+> \begin{aligned}
+> g(u) = \sin(u) \\
+> h(x) = x^3 \\
+> \end{aligned}
+> $$
+>
+> Luego:
+>
+> $$
+> \begin{aligned}
+> g'(u) = \cos(u) \\
+> h'(x) = 3x^2 \\
+> f'(x) = \cos(x^3) \times 3x^2 \\
+> f'(x) = 3x^2 \cos(x^3) \\
+> \end{aligned}
+> $$
 
 ## 3.3 Máximos y mínimos
 
