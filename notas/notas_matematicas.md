@@ -660,7 +660,30 @@ Para una parábola vertical, que abre hacia arriba o hacia abajo, está dada por
 ## 4.1 Probabilidad
 
 #### Aplicar las reglas básicas de la probabilidad.
-> - [APUNTES]
+> - **Regla de la probabilidad total:** La probabilidad de cualquier evento siempre está entre 0 y 1
+>
+> $$ 0 \leq P(A) \leq  1 $$
+>
+> - **Regla del complemento:** El complemento es la probabilidad de ocurrencia del evento contrario y es:
+>
+> $$ P(A') = 1 - P(A) $$
+>
+> - **Regla de la suma de eventos mutuamente excluyentes:** Cuando dos eventos son mutuamente excluyentes, es decir, ocurre uno o el otro pero no ambos, la probabilidad de que ocurra uno o el otro es la suma de sus probabilidades individuales:
+>
+> $$ P(AoB) = P(A) + P(B) $$
+>
+> - **Regla de la suma de eventos no mutuamente excluyentes:** Cuando dos eventos no son mutuamente excluyentes, es decir, pueden ocurrir ambos al tiempo, la probabilidad de que ocurra uno o el otro es la suma de sus probabilidades individuales menos la suma de que ocurran ambos al tiempo:
+>
+> $$ P(AoB) = P(A) + P(B) - P(AyB) $$
+>
+> - **Regla de la multiplicación de eventos independientes:** Cuando dos eventos son independientes, es decir, la ocurrencia de uno no afecta a la del otro, la probabilidad de que ocurran ambos es el producto de sus probabilidades individuales:
+>
+> $$ P(AyB) = P(A) \times P(B) $$
+>
+> - **Regla de la multiplicación de eventos dependientes:** Cuando dos eventos son dependientes, es decir, la ocurrencia de uno afecta a la del otro, la probabilidad de que ocurran ambos es el producto de la probabilidad de que ocurra el evento independiente por la probabilidad de que ocurra el dependiente dado que el independiente haya ocurrido:
+>
+> $$ P(AyB) = P(A) \times P(B|A) $$
+>
 
 
 ## 4.2 Distribuciones de probabilidad
