@@ -406,7 +406,7 @@ Para una parábola vertical, que abre hacia arriba o hacia abajo, está dada por
 > \end{aligned}
 > $$
 >
-> - Multiplicación de funciones
+> - Multiplicación de funciones (regla del producto)
 >
 > $$
 > \begin{aligned}
@@ -415,7 +415,7 @@ Para una parábola vertical, que abre hacia arriba o hacia abajo, está dada por
 > \end{aligned}
 > $$
 >
-> - División de funciones
+> - División de funciones (regla del cociente)
 >
 > $$
 > \begin{aligned}
@@ -498,10 +498,158 @@ Para una parábola vertical, que abre hacia arriba o hacia abajo, está dada por
 ## 3.4 Integración
 
 #### Calcular integrales de funciones analíticas.
-> - [APUNTES]
+> A todas las integrales indefinidas se les agrega al final una constante arbitraria $C$.
+>
+> **Integral de una constante:** La integral de una constante es igual a la constante por la variable integradora.
+>
+> $$ \int c \mathrm{d}x = cx+C $$
+>
+> **Regla de la potencia:** Se calcula de forma opuesta a la derivada:
+> 
+> $$ \int x^{n} \mathrm{d}x = \frac{x^{n+1}}{n+1} + C  $$
+>
+> Para el caso especial en el que $n=-1$, tenemos:
+>
+> $$ \int \frac{1}{x} \mathrm{d}x = \ln|x| + C  $$
+>
+> **Seno, coseno y $e^x$:** Salen automáticamente a partir de las derivadas.
+>
+> $$
+> \begin{aligned}
+> \int \sin(x) \mathrm{d}x = - \cos(x) + C \\
+> \int \cos(x) \mathrm{d}x = \sin(x) + C \\
+> \int e^x \mathrm{d}x = e^x + C \\
+> \end{aligned}
+> $$
+>
+> **Sustitución de variable:**
+> Es el proceso inverso a la regla de la cadena en las derivadas. Si dentro de la integral es visible una función y también su derivada multiplicando a $\mathrm{d}x$, entonces se puede utilizar. Por ejemplo:
+>
+> $$ \int 2x e^{x^2} \mathrm{d}x $$
+>
+> La derivada de $x^2$ está visible ($2x$) y multiplica a $\mathrm{d}x$. Entonces tenemos:
+>
+> $$
+> \begin{aligned}
+> u = x^2 \\
+> \mathrm{d}u = 2x \mathrm{d}x \\
+> \int 2x e^{x^2} \mathrm{d}x = \int e^u \mathrm{d}u \\
+> \int 2x e^{x^2} \mathrm{d}x = e^u + C \\
+> \int 2x e^{x^2} \mathrm{d}x = e^{x^2} + C \\
+> \end{aligned}
+> $$
+>
+> **Integración por partes:** Es el opuesto a la regla del producto de las derivadas. Regla mnemotécnica: "un día vi una vaca [menos flaca] vestida de uniforme".
+>
+> $$ \int u \mathrm{d}v = uv - \int v \mathrm{d}u $$
+>
+> Un ejemplo de uso es la siguiente integral:
+>
+> $$ \int x e^x \mathrm{d}x $$
+>
+> Podemos partir de lo siguiente:
+>
+> $$
+> \begin{aligned}
+> u = x \\
+> \mathrm{d}v = e^x \mathrm{d}x \\
+> \end{aligned}
+> $$
+>
+> Ahora, derivamos $u$ para obtener $\mathrm{d}u$ e integramos $\mathrm{d}v$ para obtener $v$:
+>
+> $$
+> \begin{aligned}
+> u = x \\
+> \mathrm{d}u = \mathrm{d}x \\
+> \mathrm{d}v = e^x \mathrm{d}x \\
+> \int \mathrm{d}v = \int e^x \mathrm{d}x \\
+> v = e^x \\
+> \end{aligned}
+> $$
+>
+> Podemos omitir la constante de integración por ahora, para agregarla al final. Remplazamos y obtenemos:
+>
+> $$
+> \begin{aligned}
+> \int u \mathrm{d}v = uv - \int v \mathrm{d}u \\
+> \int (x) (e^x \mathrm{d}x) = (x) (e^x) - \int (e^x) (\mathrm{d}x) \\
+> \int x e^x \mathrm{d}x = x e^x - \int e^x \mathrm{d}x \\
+> \int x e^x \mathrm{d}x = x e^x - e^x + C \\
+> \int x e^x \mathrm{d}x = (x-1) e^x + C \\
+> \end{aligned}
+> $$
+>
+> **Fracciones parciales:** Consiste en separar una fracción polinómica en una suma de fracciones más simples, para integrarlas por separado y luego sumarlas.
+>
+> $$ \int \frac{5x - 3}{x^2 - 2x - 3} \mathrm{d}x $$
+>
+> Factorizamos el denominador encontrando las raíces:
+>
+> $$
+> \begin{aligned}
+> x = \frac{-b \pm \sqrt{b^2 - 4ac}}{2a} \\
+> x = \frac{-(-2) \pm \sqrt{(-2)^2 - 4(1)(-3)}}{2(1)} \\
+> x = \frac{2 \pm \sqrt{4+12}}{2} \\
+> x = \frac{2 \pm \sqrt{16}}{2} \\
+> x = \frac{2 \pm 4}{2} \\
+> x = 1 \pm 2 \\
+> x_1 = 3; x_2 = -1 \\
+> \end{aligned}
+> $$
+>
+> Tenemos entonces:
+>
+> $$ x^2 - 2x - 3 = (x-(3))(x-(-1)) $$
+> $$ x^2 - 2x - 3 = (x-3)(x+1) $$
+>
+> Sustituimos en la función:
+>
+> $$ \int \frac{5x-3}{x^2 - 2x -3} \mathrm{d}x = \int \frac{5x-3}{(x-3)(x+1)} \mathrm{d}x $$
+>
+> Igualamos entonces a las fracciones parciales con numeradores $A$ y $B$:
+> $$
+> \begin{aligned}
+> \frac{5x-3}{(x-3)(x+1)} = \frac{A}{(x-3)} + \frac{B}{(x+1)} \\\\
+> \frac{(5x-3)(x-3)(x+1)}{(x-3)(x+1)} = \frac{A(x-3)(x+1)}{(x-3)} + \frac{B(x-3)(x+1)}{(x+1)} \\\\
+> 5x-3 = A(x+1) + B(x-3) \\
+> \end{aligned}
+> $$
+>
+> Podemos evaluar en $x$ con valores que anulen alguna de las constantes a hallar.
+>
+> $$
+> \begin{aligned}
+> 5x-3 = A(x+1) + B(x-3) \\
+> 5(-1)-3 = A((-1)+1) + B((-1)-3) \\
+> -5-3 = A(-1+1) + B(-1-3) \\
+> -8 = -4B \\
+> B = 2 \\
+> 5(3)-3 = A((3)+1) + B((3)-3) \\
+> 15-3 = A(3+1) + B(3-3) \\
+> 12 = 4A \\
+> A = 3 \\
+> \end{aligned}
+> $$
+>
+> Remplazamos y obtenemos:
+>
+> $$
+> \begin{aligned}
+> \int \frac{5x-3}{x^2 - 2x -3} \mathrm{d}x = \int \frac{5x-3}{(x-3)(x+1)} \mathrm{d}x \\\\
+> \int \frac{5x-3}{x^2 - 2x -3} \mathrm{d}x = \int \frac{A}{(x-3)} + \frac{B}{(x+1)} \mathrm{d}x \\\\
+> \int \frac{5x-3}{x^2 - 2x -3} \mathrm{d}x = \int \frac{3}{(x-3)} \mathrm{d}x + \int \frac{2}{(x+1)} \mathrm{d}x \\\\
+> \int \frac{5x-3}{x^2 - 2x -3} \mathrm{d}x = 3 \ln|x-3| + 2 \ln|x+1| + C \\\\
+> \end{aligned}
+> $$
+
 
 #### Interpretar la representación geométrica de la integral.
-> - [APUNTES]
+> Geométricamente, una integral definida entre dos puntos $a$ y $b$, representa el área bajo la curva. Siendo el área positiva donde $y$ es positivo, y negativa donde $y$ es negativa. En el siguiente ejemplo, se ilustra el área bajo la curva de una integral definida de la forma:
+>
+> $$ \int_a^b f(x) \mathrm{d}x $$
+>
+> <img src="../static/area_bajo_curva.png" alt="Área bajo la curva" width="60%">
 
 
 
