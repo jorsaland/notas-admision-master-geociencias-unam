@@ -608,6 +608,7 @@ Para una parábola vertical, que abre hacia arriba o hacia abajo, está dada por
 > $$ \int \frac{5x-3}{x^2 - 2x -3} \mathrm{d}x = \int \frac{5x-3}{(x-3)(x+1)} \mathrm{d}x $$
 >
 > Igualamos entonces a las fracciones parciales con numeradores $A$ y $B$:
+>
 > $$
 > \begin{aligned}
 > \frac{5x-3}{(x-3)(x+1)} = \frac{A}{(x-3)} + \frac{B}{(x+1)} \\\\
