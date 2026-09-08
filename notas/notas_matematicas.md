@@ -460,7 +460,39 @@ Para una parábola vertical, que abre hacia arriba o hacia abajo, está dada por
 ## 3.3 Máximos y mínimos
 
 #### Calcular máximos y mínimos de una función.
-> - [APUNTES]
+> Para calcular los máximos y mínimos de una función, hay que sacar la primera derivada y encontrar los puntos donde esta es igual a cero. Luego, sacar la segunda derivada y evaluarla en esos mismos puntos. Si la segunda derivada es positiva, es un mínimo. Si es negativa, es un máximo. Si es 0, el criterio no es suficiente. Por ejemplo, para la siguiente función, calculamos la primera derivada:
+>
+> $$
+> \begin{aligned}
+> f(x) = x^3 - 3x + 2 \\
+> f'(x) = 3x^2 - 3 \\
+> \end{aligned}
+> $$
+>
+> Al igualarla a cero, obtenemos los valores de $x$ donde hay puntos mínimos y máximos:
+>
+> $$
+> \begin{aligned}
+> 0 = 3x^2 - 3 \\
+> 3x^2 = 3 \\
+> x^2 = \frac{3}{3} \\
+> x^2 = 1 \\
+> x_1 = 1; x_2 = -1
+> \end{aligned}
+> $$
+>
+> Así, encontramos 2 puntos. A partir de la segunda derivada, evaluada en esos puntos podemos saber si son máximos o mínimos.
+>
+> $$
+> \begin{aligned}
+> f'(x) = 3x^2 - 3 \\
+> f''(x) = 6x \\
+> f''(1) = 6 \\
+> f''(-1) = -6 \\
+> \end{aligned}
+> $$
+>
+> Así, encontramos que en $x=1$ hay un punto mínimo y en $x=-1$ hay un punto máximo
 
 
 ## 3.4 Integración
