@@ -194,7 +194,13 @@
 ## 5.2 Carga eléctrica y el campo eléctrico: expresión y cálculo del campo eléctrico
 
 #### Calcular el campo eléctrico en el caso unidimensional a partir de la carga de la partícula y de la fuerza que se ejerce sobre ella.
-> - [APUNTES]
+> La ecuación del campo eléctrico detectado por una carga eléctrica de prueba $q_0$ está dado por:
+>
+> $$ \mathbf{E} = \frac{\mathbf{F}}{q_0} $$
+>
+> En una dimensión, esto es igual a:
+>
+> $$ E = \frac{F}{q_0} $$
 
 
 ## 5.3 Corriente eléctrica: Ley de Ohm
