@@ -206,8 +206,22 @@
 ## 5.3 Corriente eléctrica: Ley de Ohm
 
 #### Aplicar la ley de Ohm en circuitos simples.
-> - [APUNTES]
-
+> - La ley de Ohm relaciona el voltaje y la corriente eléctrica a través de una constante de proporcionalidad que es la resistencia.
+>
+> $$ \Delta V = IR $$
+>
+> En un circuito en serie, la corriente se mantiene igual, mientras que el voltaje depende de cada elemento del circuito. La resistencia total se calcula sumando las resistencias individuales. Conociendo la corriente, se puede calcular la caída de voltaje para cada resistencia.
+>
+> $$ R_T = \sum R $$
+>
+> En un circuito en paralelo, el voltaje se mantiene igual y la corriente se divide entre los dos caminos, manteniendo el total.
+>
+> $$ I_T = \sum I $$
+>
+> El recíproco de la resistencia total es igual a la suma de los recíprocos de las resistencias individuales.
+>
+> $$ \frac{1}{R_T} = \sum \frac{1}{R} $$
+>
 
 
 # 6. Magnetismo
