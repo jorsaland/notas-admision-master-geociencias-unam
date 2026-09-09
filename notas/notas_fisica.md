@@ -83,6 +83,7 @@
 > Finalmente, encontramos la relación entre la velocidad más baja y la más alta necesaria para que se conserve la energía mecánica.
 >
 > Para un objeto sobre un plano inclinado, se requiere que no haya fricción para que se pueda conservar la energía. Independientemente del ángulo del plano, se mantienen las mismas ecuaciones para la energía mecánica. Si tomamos $h$ como la altura del objeto en el punto más alto del plano y 0 en el punto más bajo, tenemos:
+>
 > $$
 > \begin{aligned}
 > \frac{1}{2}mv_1^2 + mgh_1 = \frac{1}{2}mv_2^2 + mgh_2 \\
@@ -99,10 +100,10 @@
 > $$
 > \begin{aligned}
 > \frac{1}{2}mv_{1i}^2 + \frac{1}{2}mv_{2i}^2 = \frac{1}{2}mv_{1f}^2 + \frac{1}{2}mv_{2f}^2 \\
-> \textbf{p}_{1i} + \textbf{p}_{2i} = \textbf{p}_{1f} + \textbf{p}_{2f}
+> \textbf{p}_{1i} + \textbf{p}_{2i} = \textbf{p}_{1f} + \textbf{p}_{2f} \\
 > \end{aligned}
 > $$
-
+>
 
 
 # 3. Ley de la gravitación universal
