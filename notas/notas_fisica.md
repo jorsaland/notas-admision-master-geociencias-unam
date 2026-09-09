@@ -99,7 +99,7 @@
 > $$
 > \begin{aligned}
 > \frac{1}{2}mv_{1i}^2 + \frac{1}{2}mv_{2i}^2 = \frac{1}{2}mv_{1f}^2 + \frac{1}{2}mv_{2f}^2 \\
-> \textbf{p}_1i + \textbf{p}_2i = \textbf{p}_1f + \textbf{p}_2f
+> \textbf{p}_{1i} + \textbf{p}_{2i} = \textbf{p}_{1f} + \textbf{p}_{2f}
 > \end{aligned}
 > $$
 
@@ -111,7 +111,14 @@
 ## 3.1 Gravitación
 
 #### Emplear la ley de la gravitación universal.
-> - [APUNTES]
+> La ley de la gravitación universal se define como:
+>
+> $$ F_g = \frac{m_1 m_2}{d^2} G $$
+>
+> Siendo $m_1$ y $m_2$ las masas de los cuerpos, $d$ la distancia que separa sus centros de masa y $G$ la constante de gravitación universal dada por:
+>
+> $$ G =  6,67 \times 10^{-11} \, \text{N}\text{m}^2/\text{kg}^2\ $$
+>
 
 
 
