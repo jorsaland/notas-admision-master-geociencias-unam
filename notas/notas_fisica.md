@@ -52,7 +52,56 @@
 ## 2.1 Conservación de la energía mecánica
 
 #### Aplicar la ley de conservación de la energía mecánica en las siguientes situaciones: (1) un cuerpo en movimiento circular, (2) movimiento de un cuerpo en planos inclinados, (3) un choque elástico entre dos cuerpos.
-> - [APUNTES]
+
+> En un movimiento circular, podemos plantear dos casos límites: uno en el que el movimiento es solo horizontal y otro en el que tiene una componente vertical. Para cualquier caso, tenemos que si la energía se conserva, entonces la energía va a ser igual en puntos arbitrarios de la trayectoria:
+>
+> $$
+> \begin{aligned}
+> E_1 = E_2 \\
+> K_1 + E_{p1} = K_2 + E_{p2} \\
+> \frac{1}{2}mv_1^2 + mgh_1 = \frac{1}{2}mv_2^2 + mgh_2 \\
+> \end{aligned}
+> $$
+>
+> Para el caso horizontal, la velocidad y la altura son constantes, por lo tanto, la energía mecánica se mantiene constante.
+>
+> $$ E = \frac{1}{2}mv^2 + mgh $$
+>
+> Para el caso vertical, podemos tomar convenientemente el punto más bajo como $h=0$ y el más alto como $h=2R$, donde $R$ es el radio de la circunferencia descrita, y encontrar la relación necesaria entre las velocidades para que se conserve la energía.
+>
+> $$
+> \begin{aligned}
+> \frac{1}{2}mv_1^2 + mgh_1 = \frac{1}{2}mv_2^2 + mgh_2 \\
+> \frac{1}{2}mv_1^2 + mg(0) = \frac{1}{2}mv_2^2 + mg(2R) \\
+> \frac{1}{2}mv_1^2 = \frac{1}{2}mv_2^2 + 2mgR \\
+> \frac{1}{2}v_1^2 = \frac{1}{2}v_2^2 + 2gR \\
+> v_1^2 = v_2^2 + 4gR \\
+> v_1 = \sqrt{v_2^2 + 4gR} \\
+> \end{aligned}
+> $$
+>
+> Finalmente, encontramos la relación entre la velocidad más baja y la más alta necesaria para que se conserve la energía mecánica.
+>
+> Para un objeto sobre un plano inclinado, se requiere que no haya fricción para que se pueda conservar la energía. Independientemente del ángulo del plano, se mantienen las mismas ecuaciones para la energía mecánica. Si tomamos $h$ como la altura del objeto en el punto más alto del plano y 0 en el punto más bajo, tenemos:
+> $$
+> \begin{aligned}
+> \frac{1}{2}mv_1^2 + mgh_1 = \frac{1}{2}mv_2^2 + mgh_2 \\
+> \frac{1}{2}mv_1^2 + mg(0) = \frac{1}{2}mv_2^2 + mg(h) \\
+> \frac{1}{2}mv_1^2 = \frac{1}{2}mv_2^2 + mgh \\
+> \frac{1}{2}v_1^2 = \frac{1}{2}v_2^2 + gh \\
+> v_1^2 = v_2^2 + 2gh \\
+> v_1 = \sqrt{v_2^2 + 2gh} \\
+> \end{aligned}
+> $$
+>
+> En un choque elástico se conserva la energía del sistema y también el momento lineal.
+>
+> $$
+> \begin{aligned}
+> \frac{1}{2}mv_{1i}^2 + \frac{1}{2}mv_{2i}^2 = \frac{1}{2}mv_{1f}^2 + \frac{1}{2}mv_{2f}^2 \\
+> \textbf{p}_1i + \textbf{p}_2i = \textbf{p}_1f + \textbf{p}_2f
+> \end{aligned}
+> $$
 
 
 
