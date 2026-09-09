@@ -698,8 +698,15 @@ Para una parábola vertical, que abre hacia arriba o hacia abajo, está dada por
 ## 4.3 Medidas de tendencia central y dispersión
 
 #### Interpretar el concepto de varianza, diagrama de Tukey (caja y bigotes) e intervalos de confianza.
-> - [APUNTES]
-
+> **Varianza:** es una medida que calcula qué tan dispersos están los datos alrededor de la media aritmética. Mide la distancia de cada dato respecto a la media, eleva esas diferencias al cuadrado (para evitar que los valores negativos y positivos se anulen entre sí) y calcula un promedio de esos cuadrados. Un valor de varianza cercano a cero indica que los datos son muy parecidos y están muy concentrados cerca de la media. Una varianza grande indica que los datos son muy dispersos.
+>
+> $$ \sigma^2 = \frac{\sum_{i=1}^N(x_i - \mu)^2}{N} $$
+>
+> **Diagrama de caja y bigotes o diagrama de Tukey:** Es un diagrama que resume visualmente la posición, la dispersión y la simetría de un conjunto de datos. La línea dentro de la caja representa la media. Sus límites representan los cuartiles 1 y 3 (que contienen el 25% y 75% de los datos). Los bigotes marcan los valores mínimo y máximo dentro de un rango razonable. Pueden quedar valores extremos y atípicos por fuera de este rango.
+>
+> <img src="../static/tukey.png" alt="Diagrama de caja y bigote" width="60%"/>
+>
+> Un intervalo de confianza es un rango de valores, calculado a partir de una muestra, que tiene una alta probabilidad (por ejemplo, 95%) de contener el valor de un parámetro para cualquier miembro de toda la población. Por ejemplo, el 95% de una población puede tener una altura entre 1,6 y 1,7 m.
 
 ## 4.4 Regresión lineal simple y Correlación
 
