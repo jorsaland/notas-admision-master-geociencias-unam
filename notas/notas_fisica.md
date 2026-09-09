@@ -128,7 +128,19 @@
 ## 4.1 Temperatura, calor y la ley cero
 
 #### Calcular la variación de la temperatura y calor de sustancias que llegaron a un equilibrio térmico.
-> - [APUNTES]
+> - El calor es la transferencia de energía térmica en una sustancia y está dado por:
+>
+> $$ Q = mc \Delta T $$
+>
+> Donde $c$ es el calor específico de la sustancia. Un yvalor positivo de $Q$ significa que la sustancia ganó energía, y uno negativo que perdió energía. Dos sustancias en equilibrio térmico tienen la misma temperatura. En un sistema aislado, la energía que gana una sustancia es igual a la que pierde la otra.
+>
+> $$
+> \begin{aligned}
+> Q_1 = -Q_2 \\
+> m_1 c_1 \Delta T_1 = - m_2 c_2 \Delta T_2 \\
+> m_1 c_1 (T_{f} - T_{1i}) = - m_2 c_2 (T_{f} - T_{2i}) \\
+> \end{aligned}
+> $$
 
 
 ## 4.2 Gases ideales y ecuación de estado
