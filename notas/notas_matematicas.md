@@ -711,7 +711,21 @@ Para una parábola vertical, que abre hacia arriba o hacia abajo, está dada por
 ## 4.4 Regresión lineal simple y Correlación
 
 #### Reconocer la diferencia entre regresión y correlación.
-> - [APUNTES]
+> **Correlación:** mide qué tan relacionadas están dos variables linealmente. Es decir, qué tanto se ajustan a una recta. El coeficiente de correlación de Pearson se puede calcular obteniendo primero los promedios de ambas variables ($\bar{x}$ y $\bar{y}$) y después para cada par de datos, calcular la siguiente ecuación:
+>
+> $$ r = \frac{\sum (x_i - \bar{x})(y_i - \bar{y})}{\sqrt{\sum (x_i - \bar{x})^2 \sum (y_i - \bar{y})^2}} $$
+>
+> Esta ecuación da un valor entre -1 y 1. Entre más cercano a 1, más positiva es la correlación. Es decir, el aumento en una variable se corresponde con un aumento en la otra. Un coeficiente cercano a -1 indica lo contrario: el aumento de una variable se corresponde con una disminución en la otra. Y un coeficiente cercano a 0 indica que los datos no están correlacionados.
+>
+> **Regresión:** Es una herramienta para obtener el valor de una variable a partir de otra fuertemente correlacionada. En el caso de la regresión lineal se calcula la ecuación de la recta que relaciona ambas variables, siendo la variable independiente ($X$) la que es conocida y la dependiente ($Y$) la que se quiere hallar.
+>
+> $$
+> \begin{aligned}
+> Y = a + bX \\\\
+> a = \frac{\sum Y - b \sum X}{n} \\\\
+> b = \frac{n \sum XY - \left(\sum X\right)\left(\sum Y\right)}{n \sum X^2 - \left(\sum X\right)^2} \\
+> \end{aligned}
+> $$
 
 #### Interpretar la significancia estadística de una línea de regresión.
-> - [APUNTES]
+> La significancia estadística se mide mediante el **p-valor**, que mide qué tan probable es que un parámetro estadístico sea cierto. Se define una hipótesis nula ($H_0$) que asume que no existe una correlación lineal entre las variables. Un p-valor bajo ($\leq 0.05$) indica que hay baja probabilidad de que el resultado obtenido de correlación lineal se deba al azar. En este caso, el resultado se considera estadísticamente significativo y permite rechazar la hipótesis nula. Un p-valor ($\geq 0.05$) indica que los datos no son lo suficientemente extraños como para descartar que sean producto de la casualidad, en cuyo caso no se rechaza la hipótesis nula.
