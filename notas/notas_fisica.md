@@ -230,4 +230,19 @@
 ## 6.1 Ley de Ampere
 
 #### Resolver la ley de Ampere.
-> - [APUNTES]
+> La ley de Ampère relaciona el campo magnético a lo largo de un trayecto cerrado con la corriente que pasa a través de ese trayecto.
+>
+> $$ \oint \mathbf{B} \cdot \mathrm{d} \mathbf{s} = \mu_0 I $$
+>
+> Si tomamos por ejemplo un cable coaxial de longitud infinita y hacemos pasar por él una corriente constante $I$. Entonces, el campo magnético generado forma círculos concéntricos alrededor del cable. Los vectores $\mathbf{B}$ y $\mathrm{d} \mathbf{s}$ son paralelos y apuntan en el mismo sentido en cualquier punto. Además la magnitud $B$ es constante a lo largo de cualquier circunferencia. Entonces, tenemos:
+
+> $$
+> \begin{aligned}
+> \oint \mathbf{B} \cdot \mathrm{d} \mathbf{s} = \mu_0 I \\
+> \oint B \mathrm{d} s = \mu_0 I \\
+> B \oint \mathrm{d} s = \mu_0 I \\
+> 2 \pi r B = \mu_0 I \\
+> B = \frac {\mu_0 I}{2 \pi r} \\
+> \end{aligned}
+> $$
+>
