@@ -147,13 +147,27 @@
 ## 4.2 Gases ideales y ecuación de estado
 
 #### Aplicar la ecuación de estado de los gases para calcular la relación entre presión, temperatura y volumen.
-> - [APUNTES]
+> - La ecuación que describe el comportamiento de un gas ideal está dada por:
+>
+> $$ PV = nRT $$
+>
+> donde $P$ es la presión, $V$ el volumen, $n$ el número de moles, $R$ la constante de los gases ideales y $T$ la temperatura.
 
 
 ## 4.3 La primera ley de la termodinámica
 
 #### Aplicar la primera ley de la termodinámica para calcular variaciones de energía, calor o trabajo.
-> - [APUNTES]
+> De acuerdo con la primera ley de la termodinámica, la energía no se crea ni se destruye, solo se transforma. Tenemos entonces:
+>
+> $$ \Delta E = Q + W $$
+>
+> El aumento de energía en un sistema corresponde al calor que entra menos el trabajo que realiza el sistema. Tenemos además que el trabajo realizado por un gas está dado por:
+>
+> $$ W = - \int_{V_i}^{V_f} P \mathrm{d}V $$
+>
+> Por lo tanto, tenemos que:
+>
+> $$ \Delta E = mc \Delta T - \int_{V_i}^{V_f} P \mathrm{d}V $$
 
 
 
