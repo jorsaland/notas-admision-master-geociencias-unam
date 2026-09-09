@@ -689,8 +689,11 @@ Para una parábola vertical, que abre hacia arriba o hacia abajo, está dada por
 ## 4.2 Distribuciones de probabilidad
 
 #### Comprender las relaciones entre moda, mediana y media, dada una función de distribución de probabilidad.
-> - [APUNTES]
-
+> - En una distribución simétrica como lo es la distribución normal, la media, mediana y moda coinciden. Pues el punto más alto (moda) es también el punto que divide en 2 la gráfica (mediana) y a la vez el valor medio (media).
+> - En una distrubicón con asimetría positiva (con el bulto desplazado hacia la izquierda), la moda es la menor, y la media es la mayor, ya que es muy sensible a los valores extremos.
+> - En una distrubición con asimetría negativa (con el bulto desplazado hacia la derechoa), la moda es la mayor y la media es la menor.
+>
+> <img src="../static/distribuciones.png" alt="Distribuciones de probabilidad" width="60%"/>
 
 ## 4.3 Medidas de tendencia central y dispersión
 
