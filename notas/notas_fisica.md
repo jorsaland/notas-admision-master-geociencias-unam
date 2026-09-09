@@ -16,12 +16,12 @@
 >
 > <img src="../static/dinamica.png" alt="Plano inclinado y polea con masas atadas por una cuerda" width="60%"/>
 >
-> Podemos empezar por calcular las fuerzas para la masa 1. Sea $\textbf{T}$ la fuerza de tensión constante a lo largo de la cuerda. Tomando un eje que es positivo hacia arriba, tenemos:
+> Podemos empezar por calcular las fuerzas para la masa 1. Sea $\mathbf{T}$ la fuerza de tensión constante a lo largo de la cuerda. Tomando un eje que es positivo hacia arriba, tenemos:
 >
 > $$
 > \begin{aligned}
-> \sum \textbf{F}_1 = m_1 \textbf{a} \\
-> \textbf{T} + m_1 \textbf{g} = m_1 \textbf{a} \\
+> \sum \mathbf{F}_1 = m_1 \mathbf{a} \\
+> \mathbf{T} + m_1 \mathbf{g} = m_1 \mathbf{a} \\
 > ||T|| - m_1 ||g|| = m_1 a \\
 > ||T|| = m_1 a + m_1 ||g|| \\
 > \end{aligned}
@@ -31,8 +31,8 @@
 >
 > $$
 > \begin{aligned}
-> \sum \textbf{F}_2 = m_2 \textbf{a} \\
-> \textbf{T} + m_2 \textbf{g} \sin(\theta) = m_2 \textbf{a} \\
+> \sum \mathbf{F}_2 = m_2 \mathbf{a} \\
+> \mathbf{T} + m_2 \mathbf{g} \sin(\theta) = m_2 \mathbf{a} \\
 > -||T|| + m_2 ||g|| \sin(\theta) = m_2 a \\
 > -(m_1 a + m_1 ||g||) + m_2 ||g|| \sin(\theta) = m_2 a \\
 > -m_1 a - m_1 ||g|| + m_2 ||g|| \sin(\theta) = m_2 a \\
@@ -100,7 +100,7 @@
 > $$
 > \begin{aligned}
 > \frac{1}{2}mv_{1i}^2 + \frac{1}{2}mv_{2i}^2 = \frac{1}{2}mv_{1f}^2 + \frac{1}{2}mv_{2f}^2 \\
-> \textbf{p}_{1i} + \textbf{p}_{2i} = \textbf{p}_{1f} + \textbf{p}_{2f} \\
+> \mathbf{p}_{1i} + \mathbf{p}_{2i} = \mathbf{p}_{1f} + \mathbf{p}_{2f} \\
 > \end{aligned}
 > $$
 >
@@ -114,7 +114,7 @@
 #### Emplear la ley de la gravitación universal.
 > La ley de la gravitación universal se define como:
 >
-> $$ F_g = \frac{m_1 m_2}{d^2} G $$
+> $$ F_g = G \frac{m_1 m_2}{d^2} $$
 >
 > Siendo $m_1$ y $m_2$ las masas de los cuerpos, $d$ la distancia que separa sus centros de masa y $G$ la constante de gravitación universal dada por:
 >
@@ -177,7 +177,18 @@
 ## 5.1 Ley de Coulomb
 
 #### Usar la ley de Coulomb para solucionar un problema.
-> - [APUNTES]
+> La ley de Coulomb mide la fuerza eléctrica entre dos partículas cargadas. Sea $q_1$ y $q_2$ las cargas eléctricas de dos partículas, $d$ la distancia que las separa y $k$ la constante de Coulomb, el módulo de la fuerza eléctrica está dada por:
+>
+> $$ F_e = k_e \frac{|q_1 q_2|}{d^2} $$
+>
+> El valor de la constante de Coulomb está dado por:
+>
+> $$ k_e = 9 \times 10^9 \text{N} \cdot \text{m}^2 / \text{C}^2 $$
+>
+> La dirección del vector fuerza depende de si las cargas tienen el mismo signo o no. Si tienen signos iguales, se repelen y opuestos se atraen. Luego, podemos definir el vector unitario $\mathbf{\hat{r}}_{2}$ como aquel que apunta del objeto 1 al 2. La fuerza que el objeto 1 ejerce sobre el objeto 2 está dada por:
+>
+> $$ \mathbf{F}_{12} = k_e \frac{q_1 q_2}{d^2} \mathbf{\hat{r}}_{2} $$
+
 
 
 ## 5.2 Carga eléctrica y el campo eléctrico: expresión y cálculo del campo eléctrico
