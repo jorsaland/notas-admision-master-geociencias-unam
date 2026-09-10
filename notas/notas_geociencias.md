@@ -47,7 +47,6 @@
 #### Identificar los contrastes en composición y densidad de las capas de la Tierra.
 > - **Corteza continental:** Está compuesta principalmente por rocas graníticas con una densidad promedio de 2,7 g/cm<sup>3</sup>.
 > - **Corteza oceánica:** Está compuesta principalmente por rocas basálticas con una densidad promedio de 3,0 g/cm<sup>3</sup>.
-> - **Manto:** Está compuesto por rocas ultramáficas parcialmente fundidas, con una densidad que varía aproximadamente entre de 3,3 y 5,6 g/cm<sup>3</sup>.
 > - **Manto:** Está compuesto por rocas ultramáficas parcialmente fundidas, con una densidad que varía aproximadamente entre 3,3 y 5,6 g/cm<sup>3</sup>, aumentando con la profundidad.
 > - **Núcleo:** Está compuesto principalmente por hierro y níquel, con una densidad que varía aproximadamente entre 10 y 14 g/cm<sup>3</sup>.
 

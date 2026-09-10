@@ -11,11 +11,7 @@
 >
 > - **División de bases iguales:** Es igual a la base elevada a la resta de los exponentes.
 >
-> $$ \frac{b^x}{b^y} = b^{x+y} $$
->
-> - **División de bases iguales:** Es igual a la base elevada a la resta de los exponentes.
->
-> $$ \frac{b^x}{b^y} = b^{x+y} $$
+> $$ \frac{b^x}{b^y} = b^{x-y} $$
 >
 > - **Potencia de una potencia:** Es igual a la base elevada al producto de los exponentes.
 >
